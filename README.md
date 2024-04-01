@@ -1,3 +1,4 @@
 # Jasnot
 
-jasnot's home on the internet
+I will embody everything i want to do on www.jasnot.com
+
