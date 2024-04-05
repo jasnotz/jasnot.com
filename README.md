@@ -1,4 +1,4 @@
 # Jasnot
 
-I will embody everything i want to do on www.jasnot.com
+I will implement everything i want to do on www.jasnot.com
 
