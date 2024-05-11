@@ -123,6 +123,7 @@ TOC_TITLE_TEMPLATE = """
 <title> {0} </title>
 <br>
 <center><h1 style="border-bottom:0px"> {0} </h1></center>
+<center> <p>고등학생 개발자 김현석의 하찮은 블로그..</p> </center>
 
 """
 
