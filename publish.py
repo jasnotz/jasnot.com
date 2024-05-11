@@ -24,6 +24,9 @@ PRE_HEADER = """
 """
 
 HEADER_TEMPLATE = """
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Freeman&family=Gothic+A1&family=Noto+Serif+KR&display=swap" rel="stylesheet">
 <link rel="icon" href="https://www.jasnot.com/img/icon.png" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="$root/css/common-vendor.b8ecfc406ac0b5f77a26.css">
 <link rel="stylesheet" type="text/css" href="$root/css/fretboard.f32f2a8d5293869f0195.css">
@@ -122,8 +125,13 @@ TOC_TITLE_TEMPLATE = """
 
 <title> {0} </title>
 <br>
-<center><h1 style="border-bottom:0px"> {0} </h1></center>
-<center> <p>고등학생 개발자 김현석의 하찮은 블로그..</p> </center>
+<center><h1 style="border-bottom:0px;   font-family: 'Freeman', sans-serif !important;
+  font-weight: 300 !important; font-size: 250% !important;
+  font-style: normal !important;"> {0} </h1></center>
+<center> <p style="  font-family: 'Noto Serif KR', serif;
+font-size: 100%;
+  font-weight: 400;
+  font-style: normal;">고등학생 개발자 김현석의 하찮은 블로그..</p> </center>
 <br>
 
 """
@@ -144,7 +152,9 @@ TOC_ITEM_TEMPLATE = """
 <li>
     <span class="post-meta">{}</span>
     <h3 style="margin-top:12px">
-      <a class="post-link" href="{}">{}</a>
+      <a class="post-link" href="{}" style="font-family: 'Gothic A1', sans-serif;
+  font-weight: 600;
+  font-style: normal;">{}</a>
     </h3>
 </li>
 
