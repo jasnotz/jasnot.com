@@ -1,6 +1,6 @@
 [title]: <> (Jasnot's Home)
 [icon]: <> (http://vitalik.ca/images/icon.png)
 [server]: <> (root@jasnot.com)
-[website_root]: <> (/var/www/html)
+[website_root]: <> (#)
 [domain]: <> (www.jasnot.com)
 [posts_directory]: <> (general)
