@@ -5,19 +5,10 @@
   <link>www.jasnot.com/</link>
   <description>Jasnot's Home</description>
   <image>
-      <url>http://vitalik.ca/images/icon.png</url>
+      <url>https://www.jasnot.com/img/icon.png</url>
       <title>Jasnot's Home</title>
       <link>www.jasnot.com/</link>
   </image>
-
-<item>
-<title>미적 감각 부족 디자이너 구인</title>
-<link>www.jasnot.com/general/2024/05/11/new.html</link>
-<guid>www.jasnot.com/general/2024/05/11/new.html</guid>
-<pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate>
-<description></description>
-</item>
-
 
 <item>
 <title>SkipSet</title>
@@ -29,9 +20,18 @@
 
 
 <item>
+<title>미적 감각 부족 디자이너 구인</title>
+<link>www.jasnot.com/general/2024/05/11/구인.html</link>
+<guid>www.jasnot.com/general/2024/05/11/구인.html</guid>
+<pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate>
+<description></description>
+</item>
+
+
+<item>
 <title>안녕</title>
-<link>www.jasnot.com/general/2024/05/11/this_is_me.html</link>
-<guid>www.jasnot.com/general/2024/05/11/this_is_me.html</guid>
+<link>www.jasnot.com/general/2024/05/11/안녕.html</link>
+<guid>www.jasnot.com/general/2024/05/11/안녕.html</guid>
 <pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate>
 <description></description>
 </item>

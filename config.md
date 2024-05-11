@@ -1,5 +1,5 @@
 [title]: <> (Jasnot's Home)
-[icon]: <> (http://vitalik.ca/images/icon.png)
+[icon]: <> (https://www.jasnot.com/img/icon.png)
 [server]: <> (root@jasnot.com)
 [website_root]: <> (#)
 [domain]: <> (www.jasnot.com)
