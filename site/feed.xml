@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+<channel>
+  <title>Jasnot's Home</title>
+  <link>www.jasnot.com/</link>
+  <description>Jasnot's Home</description>
+  <image>
+      <url>http://vitalik.ca/images/icon.png</url>
+      <title>Jasnot's Home</title>
+      <link>www.jasnot.com/</link>
+  </image>
+
+<item>
+<title>안녕</title>
+<link>www.jasnot.com/general/2024/05/11/this_is_me.html</link>
+<guid>www.jasnot.com/general/2024/05/11/this_is_me.html</guid>
+<pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate>
+<description></description>
+</item>
+
+</channel>
+</rss>
