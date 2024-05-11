@@ -1,0 +1,12 @@
+[category]: <> (General, 구인)
+[date]: <> (2024/05/11)
+[title]: <> (미적 감각 부족 디자이너 구인)
+
+미적 감각이 부족.. 사이트가 허접해보인다..
+디자이너 모집합니다 
+gbana.its.me@gmail.com
+
+```python
+def sibal():
+    print("Bye, World")
+```
