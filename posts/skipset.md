@@ -1,4 +1,4 @@
-[category]: <> (그냥)
+[category]: <> (일반)
 [date]: <> (2024/05/11)
 [title]: <> (SkipSet)
 

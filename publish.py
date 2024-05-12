@@ -388,4 +388,3 @@ if __name__ == '__main__':
     this_file_directory = os.path.dirname(__file__)
     os.system('cp -r {} site/'.format(os.path.join(this_file_directory, 'css')))
     os.system('cp -r {} site/'.format(os.path.join(this_file_directory, 'scripts')))
-    os.system('rsync -av images site/')

@@ -20,7 +20,7 @@
 
 
 
-<link rel="alternate" type="application/rss+xml" href="../../../../feed.xml" title="안녕">
+<link rel="alternate" type="application/rss+xml" href="../../../../feed.xml" title="[CS] 시간복잡도 Big-O 표기법">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -101,19 +101,47 @@ MathJax = {
 </script>
 
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="안녕" />
+<meta name="twitter:title" content="[CS] 시간복잡도 Big-O 표기법" />
 <meta name="twitter:image" content="https://www.jasnot.com/img/icon.png" />
 
 
 <br>
-<h1 style="margin-bottom:7px"> 안녕 </h1>
-<small style="float:left; color: #888"> 2024 May 11 </small>
+<h1 style="margin-bottom:7px"> [CS] 시간복잡도 Big-O 표기법 </h1>
+<small style="float:left; color: #888"> 2022 Jun 07 </small>
 <small style="float:right; color: #888"><a href="../../../../index.html">See all posts</a></small>
 <br> <br> <br>
-<title> 안녕 </title>
+<title> [CS] 시간복잡도 Big-O 표기법 </title>
 
-<p>오랜만에 블로그.... 할 말이 없다 아마도 여기에 앞으로 만들 프로젝트들의 경과사항이나 컴퓨터과학 이론, 알고리즘 등을 올릴 예정..........</p>
-<p>그리고 제 <a href="https://twitter.com/@jasnotz">트위터</a> 그리고 제 <a href="https://github.com/jasnotz">깃허브</a> 팔로우해주세요..</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="kw">def</span> sibal():</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a>    <span class="bu">print</span>(<span class="st">&quot;Hello, World&quot;</span>)</span></code></pre></div>
+<p><em>오늘은 다시 한번 공부해볼겸... 쓸게 없으니 자료 구조의 기초중의 기초에 대하여 다루어보겠다.</em></p>
+<h2 id="시간복잡도">시간복잡도</h2>
+<p>시간 복잡도라는게 존재하는 이유는 간단하다.. 프로그램의 효율성을 평가할때 일반 7초 걸리니 빠르네! 효율적이다!<br />
+이러면 그 7초걸리던 프로그램이 콩순이 컴퓨터에선 500시간 걸려 실행될수도 있기 때문인것이다..<br />
+따라서 객관적인 프로그램의 효율성을 표기하기 위해 이런 개념이 존재한다고 할수 있다..</p>
+<h2 id="big-o">Big-O</h2>
+<center>
+<br> <img src="https://miro.medium.com/v2/resize:fit:1358/1*dWet_YU-5072Kcko7LzsuQ.jpeg" height="250">
+<p>
+[그림1]　출처 - medium
+</p>
+</center>
+<p><em>Big-O 표기법</em> 이란, 알고리즘의 점근적 상한을 나타내는 표기법이다.. 뭔 말이냐면 작성한 알고리즘이 최악의 상황으로 작동할때 [그림1]과 같이 증가 함수와 같은 방식으로 줫같이 작동함을 나타내는 것이다.. 또한 <em>Big-O 표기법</em>의 수학적정의는</p>
+<blockquote>
+<p><br /><span class="math display"><em>n</em> ≥ <em>n</em>0, <em>f</em>(<em>n</em>) ≤ <em>c</em> · <em>g</em>(<em>n</em>), <em>i</em><em>f</em> <em>e</em><em>x</em><em>i</em><em>s</em><em>t</em> <em>c</em> <em>a</em><em>n</em><em>d</em> <em>n</em>0 <em>t</em><em>h</em><em>e</em><em>n</em> <em>f</em>(<em>n</em>) = <em>O</em>(<em>g</em>(<em>n</em>))</span><br /> 인것이다..</p>
+</blockquote>
+<h3 id="성능-비교">성능 비교</h3>
+<p>위의 [그림1]에서 볼수 있듯이 <br /><span class="math display"><em>O</em>(1) &lt; <em>O</em>(<em>l</em><em>o</em><em>g</em><em>n</em>) &lt; <em>O</em>(<em>n</em>) &lt; <em>O</em>(<em>n</em><em>l</em><em>o</em><em>g</em><em>n</em>) &lt; <em>O</em>(<em>n</em><sup>2</sup>) &lt; <em>O</em>(2<sup><em>n</em></sup>)</span><br /> 즉 오른쪽으로 갈수록 효율성이 떨어진다..</p>
+<h2 id="big-o-표기법-예제">Big-O 표기법 예제</h2>
+<ol type="1">
+<li>O(1) : 스택에서 Push, Pop</li>
+<li>O(log n) : 이진트리</li>
+<li>O(n) : for 문</li>
+<li>O(n log n) : 퀵 정렬(quick sort), 병합정렬(merge sort), 힙 정렬(heap Sort)</li>
+<li>O(n^2): 이중 for 문, 삽입정렬(insertion sort), 거품정렬(bubble sort), 선택정렬(selection sort)</li>
+<li>O(2^n) : 피보나치 수열</li>
+</ol>
+<h3 id="또한">또한</h3>
+<p>이외에도 Big-Ω, Big-θ등이 더 있으나.. 사실 쓸일이 별로 없다.. 뭔가 나중에 쓸 소재가 떨어졌을때 그때 다시 소개하도록 하겠다.. 사실 Big-O만으로는 이산수학을 제외하고 설명할만한 부분은 이게 다인것이다.. Big-O를 가지고 더 광범위하게 설명하려면 알고리즘에 대해 알아야하기에 이글은 여기까지로 마치고 다음에 알고리즘들을 소개하며 Big-O이 어떻게 활용되는지 설명하겠다</p>
+<h5 id="감사하빈다.">감사하빈다.</h5>
+<h6 id="gbana.its.megmail.com">gbana.its.me@gmail.com</h6>
+<h6 id="github-jasnotz">github: jasnotz</h6>
  </div> 
