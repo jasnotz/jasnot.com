@@ -125,9 +125,7 @@ TOC_TITLE_TEMPLATE = """
 
 <title> {0} </title>
 <br>
-<center><h1 style="border-bottom:0px;   font-family: 'Freeman', sans-serif !important;
-  font-weight: 300 !important; font-size: 250% !important;
-  font-style: normal !important;"> {0} </h1></center>
+<center><h1 style="border-bottom:0px"> {0} </h1></center>
 <center> <p style="  font-family: 'Noto Serif KR', serif;
 font-size: 100%;
   font-weight: 400;
