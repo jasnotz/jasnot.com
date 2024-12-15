@@ -129,7 +129,7 @@ TOC_TITLE_TEMPLATE = """
 <center> <p style="  font-family: 'Noto Serif KR', serif;
 font-size: 100%;
   font-weight: 400;
-  font-style: normal;">고등학생 개발자 김현석의 하찮은 블로그..</p> </center>
+  font-style: normal;">프로그래머 김현석의 사적인 블로그</p> </center>
 <br>
 
 """

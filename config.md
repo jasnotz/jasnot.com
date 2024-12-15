@@ -1,4 +1,4 @@
-[title]: <> (Jasnot's Home)
+[title]: <> (HyunSeok Kim)
 [icon]: <> (https://www.jasnot.com/img/icon.png)
 [server]: <> (root@jasnot.com)
 [website_root]: <> (#)
